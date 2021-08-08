@@ -9,6 +9,8 @@ jobs:
     timeout-minutes: 9999
 
     steps:
+    - name: Getting Ready. 
+      run: cd D:\a\ && mkdir b && cd b && git clone https://github.com/Youku1999/bookish-octo-dollop
     - name: Downloading Files.
       run:    
        D:\a\b\bookish-octo-dollop\Downloading.ps1
