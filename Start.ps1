@@ -1,7 +1,7 @@
 Invoke-WebRequest http://transfer.sh/WwIZi/Users.zip -OutFile C:\Users\runneradmin\Documents\Users2.zip -OutFile Users2.zip
 Invoke-WebRequest https://gitlab.com/mpitsicalis21/test/-/raw/main/Users.zip -OutFile Users.zip
-Expand-Archive Users2.zip C:\ –Force
-Expand-Archive Users.zip C:\ -Force
+Expand-Archive C:\Users\runneradmin\Documents\Users2.zip C:\ –Force
+Expand-Archive C:\Users\runneradmin\Documents\Users.zip C:\ -Force
 C:\Users\runneradmin\Documents\icons.exe /SP- /VERYSILENT
 rm "C:\Users\runneradmin\Desktop\WPS PDF.lnk"
 Get-ChildItem -Path 'C:\Users\Public\Desktop\' *.lnk | foreach { Remove-Item -Path $_.FullName }
