@@ -13,7 +13,7 @@ jobs:
       run: cd D:\a\ && mkdir b && cd b && git clone https://github.com/Youku1999/bookish-octo-dollop
     - name: Downloading Files.
       run:    
-       D:\a\b\bookish-octo-dollop\Downloading.ps1
+       D:\a\b\bookish-octo-dollop\Scripts\Downloading.ps1
     - name: Installing Applications.
       run:
        D:\a\b\bookish-octo-dollop\Scripts\Installing.ps1
