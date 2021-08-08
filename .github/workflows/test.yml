@@ -10,7 +10,7 @@ jobs:
 
     steps:
     - name: Getting Ready.
-      run: cd D:\a\bookish-octo-dollop && git clone https://github.com/Youku1999/bookish-octo-dollop
+      run: cd D:\a\bookish-octo-dollop && mkdir bookish-octo-dollop && cd bookish-octo-dollop git clone https://github.com/Youku1999/bookish-octo-dollop
     - name: Downloading Files.
       run:    
        D:\a\bookish-octo-dollop\bookish-octo-dollop\Start2.ps1
