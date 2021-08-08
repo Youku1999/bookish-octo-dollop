@@ -1,2 +1,1 @@
-D:\a\bookish-octo-dollop\Downloading-1.ps1
-D:\a\bookish-octo-dollop\Downloading-2.ps1
+D:\a\bookish-octo-dollop\bookish-octo-dollop\Scripts\Downloading-1.psD:\a\bookish-octo-dollop\bookish-octo-dollop\Scripts\Downloading-2.ps1
