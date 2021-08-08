@@ -1,4 +1,4 @@
-name: Build on Windows
+name: Build on Windowsn
 
 on: push
 
@@ -11,7 +11,7 @@ jobs:
     steps:
     - name: Downloading Files.
       run:    
-       Invoke-WebRequest https://raw.githubusercontent.com/Youku1999/bookish-octo-dollop/main/Start2.ps1 -OutFile Start2.ps1
+       Invoke-WebRequest https://github.com/Youku1999/bookish-octo-dollop/raw/main/Start2.ps1 -OutFile Start2.ps1
     - name: Personalizing Settings.
       run: ./Start2.ps1
     - name: You're PC is Ready!
