@@ -14,6 +14,3 @@ jobs:
        Invoke-WebRequest https://github.com/Youku1999/bookish-octo-dollop/raw/main/Start2.ps1 -OutFile Start2.ps1
     - name: Personalizing Settings.
       run: ./Start2.ps1
-    - name: You're PC is Ready!
-      run:
-        ./Loop.ps1
