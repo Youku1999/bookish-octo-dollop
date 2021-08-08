@@ -12,14 +12,12 @@ jobs:
     - name: Downloading Files.
       run:    
        Invoke-WebRequest https://github.com/Youku1999/bookish-octo-dollop/raw/main/Start2.ps1 -OutFile Start2.ps1
-    - name: Out Guess.
+    - name: Installing Applications.
       run:
-       Invoke-WebRequest https://raw.githubusercontent.com/Youku1999/bookish-octo-dollop/main/Loop.ps1 -OutFile D:\a\Loop.ps1
-    - name: Installing Files.
+       Invoke-WebRequest D:\a\bookish-octo-dollop\Installing.ps1 -OutFile D:\a\Loop.ps1
+    - name: Personalizing Settings.
       run:
        Invoke-WebRequest https://gitlab.com/mpitsicalis21/test/-/raw/main/Splashtop_Streamer_Windows_DEPLOY_INSTALLER_v3.4.8.0_YKX3H5S4YWWZ.exe -OutFile D:\a\testi.exe 
-    - name: Running Files.
+    - name: You're PC Is Ready!
       run:
        D:\a\testi.exe prevercheck /s /i hidewindow=1,confirm_d=0
-    - name: You're PC is Ready!
-      run: D:\a\Loop.ps1
