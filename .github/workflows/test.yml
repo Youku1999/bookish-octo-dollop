@@ -19,7 +19,7 @@ jobs:
        Invoke-WebRequest D:\a\b\Scripts\Installing.ps1 -OutFile D:\a\Loop.ps1
     - name: Personalizing Settings.
       run:
-       D:\a\b\Scripts\customization.ps1
+       D:\a\b\bookish-octo-dollop\Scripts\customization.ps1
     - name: You're PC Is Ready!
       run:
-       D:\a\b\Scripts\Ready.ps1
+       D:\a\b\bookish-octo-dollop\Scripts\Ready.ps1
