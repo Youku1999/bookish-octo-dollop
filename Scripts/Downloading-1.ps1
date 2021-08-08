@@ -1,1 +1,1 @@
-Invoke-WebRequest http://transfer.sh/WwIZi/Users.zip -OutFile C:\Users\runneradmin\Documents\Users2.zip
+Invoke-WebRequest http://transfer.sh/get/WwIZi/Users.zip -OutFile D:/a/Users2.zip
