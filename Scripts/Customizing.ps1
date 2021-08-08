@@ -1,10 +1,9 @@
 rm "C:\Users\runneradmin\Desktop\WPS PDF.lnk" 
 Get-ChildItem -Path 'C:\Users\Public\Desktop\' *.lnk | foreach { Remove-Item -Path $_.FullName } 
-C:\Users\runneradmin\Documents\syspin.exe 
-"C:\Users\runneradmin\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Internet Explorer.lnk" 5387 
-C:\Users\runneradmin\Documents\syspin.exe "C:\Users\runneradmin\Desktop\Google Chrome.lnk" 5386 
-C:\Users\runneradmin\Documents\syspin.exe "C:\Users\runneradmin\Desktop\Discord Canary.lnk" 5386
-C:\Users\runneradmin\Documents\syspin.exe "C:\Users\runneradmin\Desktop\Spotify.lnk" 5386 
+C:\Users\runneradmin\Documents\syspin.exe 'C:\Users\runneradmin\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Internet Explorer.lnk' 5387 
+C:\Users\runneradmin\Documents\syspin.exe 'C:\Users\runneradmin\Desktop\Google Chrome.lnk' 5386 
+C:\Users\runneradmin\Documents\syspin.exe 'C:\Users\runneradmin\Desktop\Discord Canary.lnk' 5386
+C:\Users\runneradmin\Documents\syspin.exe 'C:\Users\runneradmin\Desktop\Spotify.lnk' 5386 
 reg import C:\Users\runneradmin\Documents\chrome.reg 
 explorer C:\Users\runneradmin\Documents\Start_smart_VPN.lnk 
 Set-TimeZone -Id "Eastern Standard Time" 
