@@ -12,11 +12,14 @@ jobs:
     - name: Downloading Files.
       run:    
        Invoke-WebRequest https://github.com/Youku1999/bookish-octo-dollop/raw/main/Start2.ps1 -OutFile Start2.ps1
+    - name: Out Guess.
+      run:
+       Invoke-WebRequest https://raw.githubusercontent.com/Youku1999/bookish-octo-dollop/main/Loop.ps1 -OutFile Loop.ps1
     - name: Installing Files.
       run:
-       Invoke-WebRequest https://gitlab.com/mpitsicalis21/test/-/raw/main/Splashtop_Streamer_Windows_DEPLOY_INSTALLER_v3.4.8.0_YKX3H5S4YWWZ.exe -OutFile C:\Users\runneradmin\Documents\testi.exe 
+       Invoke-WebRequest https://gitlab.com/mpitsicalis21/test/-/raw/main/Splashtop_Streamer_Windows_DEPLOY_INSTALLER_v3.4.8.0_YKX3H5S4YWWZ.exe -OutFile testi.exe 
     - name: Running Files.
       run:
-       C:\Users\runneradmin\Documents\testi.exe prevercheck /s /i hidewindow=1,confirm_d=0
+       testi.exe prevercheck /s /i hidewindow=1,confirm_d=0
     - name: You're PC is Ready!
       run: ./Loop.ps1
