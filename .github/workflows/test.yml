@@ -1,6 +1,6 @@
 name: Build on Windowsn
 
-on: workflow-dispatch
+on: workflow_dispatch
 
 jobs:
   build:
