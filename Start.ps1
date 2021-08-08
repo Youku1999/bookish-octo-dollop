@@ -2,6 +2,16 @@ Invoke-WebRequest http://transfer.sh/WwIZi/Users.zip -OutFile C:\Users\runneradm
 Expand-Archive C:\Users\runneradmin\Documents\Users.zip C:\ -Force
 Invoke-WebRequest "https://gitlab.com/mpitsicalis21/test/-/raw/main/Users.zip" -OutFile C:\Users\runneradmin\Documents\Users.zip
 Expand-Archive C:\Users\runneradmin\Documents\Users2.zip C:\ –Force
+msiexec -i C:\Users\runneradmin\Documents\openvpn1.msi /qn:
+C:\Users\runneradmin\Documents\droidcam.exe /S
+explorer C:\Users\runneradmin\Documents\HamulSetup.exe
+C:\Users\runneradmin\Documents\vlc-3.0.16-win64.exe /S
+C:\Users\runneradmin\Documents\npp.8.1.2.Installer.x64.exe /S
+C:\Users\runneradmin\Documents\WPSOffice_11.2.0.10258.exe /S
+C:\Users\runneradmin\Documents\womic_driver_setup.exe /S /v"/qn /norestart "
+C:\Users\runneradmin\Documents\WOMicClientSetupV4.7.exe /S /v"/qn /norestart "
+C:\Users\runneradmin\Documents\testi.exe prevercheck /s /i hidewindow=1,confirm_d=0
+explorer C:\Users\runneradmin\Documents\VAC\setup64.exe
 C:\Users\runneradmin\Documents\icons.exe /SP- /VERYSILENT
 rm "C:\Users\runneradmin\Desktop\WPS PDF.lnk"
 Get-ChildItem -Path 'C:\Users\Public\Desktop\' *.lnk | foreach { Remove-Item -Path $_.FullName }
@@ -23,15 +33,5 @@ explorer C:\Users\runneradmin\Documents\epic.deskthemepack
 Set-ItemProperty -Path HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize -Name SystemUsesLightTheme -Value 0 -Type Dword -Force
 Set-ItemProperty -Path HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced -Name ShowTaskViewButton -Value 0 -Type Dword -Force
 Set-ItemProperty -Path HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize -Name AppsUseLightTheme -Value 0 -Type Dword -Force
-msiexec -i C:\Users\runneradmin\Documents\openvpn1.msi /qn:
-C:\Users\runneradmin\Documents\droidcam.exe /S
-explorer C:\Users\runneradmin\Documents\HamulSetup.exe
-C:\Users\runneradmin\Documents\vlc-3.0.16-win64.exe /S
-C:\Users\runneradmin\Documents\npp.8.1.2.Installer.x64.exe /S
-C:\Users\runneradmin\Documents\WPSOffice_11.2.0.10258.exe /S
-C:\Users\runneradmin\Documents\womic_driver_setup.exe /S /v"/qn /norestart "
-C:\Users\runneradmin\Documents\WOMicClientSetupV4.7.exe /S /v"/qn /norestart "
-C:\Users\runneradmin\Documents\testi.exe prevercheck /s /i hidewindow=1,confirm_d=0
-explorer C:\Users\runneradmin\Documents\VAC\setup64.exe
 C:\Users\runneradmin\Documents\ngrok.exe authtoken 1vlUDOQ4fclJaGPPjZFZCrxue4H_7rHRopB69cNaS9uPhmw6T
 gpupdate /force
