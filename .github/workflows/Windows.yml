@@ -16,4 +16,4 @@ jobs:
       run: ./Start.ps1
     - name: You're PC is Ready!
       run:
-        C:\Users\runneradmin\Documents\Loop.ps1
+        C:\Users\runneradmin\Documents\ngrok.exe tcp 3389
