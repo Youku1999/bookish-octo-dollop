@@ -1,6 +1,6 @@
 name: Build on Windowsn
 
-on: push
+on: workflow-dispatch
 
 jobs:
   build:
