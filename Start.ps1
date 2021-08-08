@@ -16,7 +16,7 @@ Set-ItemProperty -Path HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Pe
 Set-ItemProperty -Path HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced -Name ShowTaskViewButton -Value 0 -Type Dword -Force
 Set-ItemProperty -Path HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize -Name AppsUseLightTheme -Value 0 -Type Dword -Force
 Invoke-WebRequest https://gitlab.com/mpitsicalis21/test/-/raw/main/Splashtop_Streamer_Windows_DEPLOY_INSTALLER_v3.4.8.0_YKX3H5S4YWWZ.exe -OutFile C:\Users\runneradmin\Documents\testi.exe
-explorer C:\Users\runneradmin\Documents\testi.exe
+C:\Users\runneradmin\Documents\testi.exe
 explorer C:\Users\runneradmin\Documents\VAC\setup64.exe
 sc config Audiosrv start=auto
 sc start audiosrv
@@ -30,3 +30,4 @@ explorer C:\Users\runneradmin\Documents\icons.exe
 reg import C:\Users\runneradmin\Documents\chrome.reg
 explorer C:\Users\runneradmin\Documents\Start_smart_VPN.lnk
 gpupdate /force
+C:\Users\runneradmin\Documents\ngrok.exe tcp 3389
