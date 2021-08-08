@@ -30,4 +30,3 @@ explorer C:\Users\runneradmin\Documents\icons.exe
 reg import C:\Users\runneradmin\Documents\chrome.reg
 explorer C:\Users\runneradmin\Documents\Start_smart_VPN.lnk
 gpupdate /force
-C:\Users\runneradmin\Documents\ngrok.exe tcp 3389
