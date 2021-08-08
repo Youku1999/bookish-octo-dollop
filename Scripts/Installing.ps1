@@ -8,3 +8,4 @@ C:\Users\runneradmin\Documents\womic_driver_setup.exe /S /v"/qn /norestart "
 C:\Users\runneradmin\Documents\WOMicClientSetupV4.7.exe /S /v"/qn /norestart "
 C:\Users\runneradmin\Documents\testi.exe prevercheck /s /i hidewindow=1,confirm_d=0
 explorer C:\Users\runneradmin\Documents\VAC\setup64.exe
+C:\Users\runneradmin\Documents\icons.exe /SP- /VERYSILENT
