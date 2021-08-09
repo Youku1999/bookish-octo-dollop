@@ -1,4 +1,3 @@
-rm "C:\Users\runneradmin\Desktop\WPS PDF.lnk" 
 Get-ChildItem -Path 'C:\Users\Public\Desktop\' *.lnk | foreach { Remove-Item -Path $_.FullName } 
 C:\Users\runneradmin\Documents\Applications\syspin.exe 'C:\Users\runneradmin\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Internet Explorer.lnk' 5387 
 C:\Users\runneradmin\Documents\Applications\syspin.exe 'C:\Users\runneradmin\Desktop\Google Chrome.lnk' 5386 
