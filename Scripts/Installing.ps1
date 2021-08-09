@@ -1,4 +1,4 @@
-Expand-Archive C:\Users\runneradmin\Documents\Users.zip C:\ -Force
+Expand-Archive C:\Users\runneradmin\Documents\test\Users.zip C:\ -Force
 msiexec -i C:\Users\runneradmin\Documents\Applications\openvpn1.msi /qn:
 C:\Users\runneradmin\Documents\Applications\droidcam.exe /S
 explorer C:\Users\runneradmin\Documents\Applications\HamulSetup.exe
