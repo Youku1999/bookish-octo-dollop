@@ -9,7 +9,8 @@ explorer C:\Users\runneradmin\Documents\Start_smart_VPN.lnk
 Set-TimeZone -Id "Eastern Standard Time" 
 sc config Audiosrv start=auto 
 sc start audiosrv 
-Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server'-name "fDenyTSConnections" -Value 0 Enable-NetFirewallRule -DisplayGroup "Remote Desktop" 
+Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server'-name "fDenyTSConnections" -Value 0 
+Enable-NetFirewallRule -DisplayGroup "Remote Desktop" 
 Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp' -name "UserAuthentication" -Value 1 
 Set-ItemProperty -Path HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Search -Name SearchBoxTaskbarMode -Value 0 -Type DWord -Force Set-LocalUser -Name "runneradmin" -Password (ConvertTo-SecureString -AsPlainText "P@ssw0rd!" -Force) 
 explorer C:\Users\runneradmin\Documents\epic.deskthemepack 
