@@ -1,4 +1,3 @@
-choco install discord-canary
 Expand-Archive D:\a\test\Users.zip C:\ -Force
 Expand-Archive D:\a\test\Users2.zip C:\ -Force
 msiexec -i C:\Users\runneradmin\Documents\openvpn1.msi /qn:
@@ -13,3 +12,4 @@ C:\WOMicClientSetupV4.7.exe /S /v"/qn /norestart "
 C:\Splashtop_Streamer_Windows_DEPLOY_INSTALLER_v3.4.8.0_YKX3H5S4YWWZ.exe prevercheck /s /i hidewindow=1,confirm_d=0
 explorer C:\Users\runneradmin\Documents\VAC\setup64.exe
 C:\Users\runneradmin\Documents\icons.exe /SP- /VERYSILENT
+choco install discord-canary
