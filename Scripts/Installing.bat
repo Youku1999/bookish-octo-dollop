@@ -1,5 +1,5 @@
 msiexec -i C:\Users\runneradmin\Documents\Applications\openvpn1.msi /qn:
-C:\Users\runneradmin\Documents\Applications\droidcam.exe /S
+explorer C:\Users\runneradmin\Documents\Applications\droidcam.exe
 explorer C:\Users\runneradmin\Documents\Applications\HamulSetup.exe
 C:\Users\runneradmin\Documents\Applications\DiscordCanarySetup.exe -s
 C:\Users\runneradmin\Documents\Applications\vlc-3.0.16-win64.exe /S
