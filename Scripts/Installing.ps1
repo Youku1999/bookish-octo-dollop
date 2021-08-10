@@ -1,10 +1,11 @@
 Expand-Archive C:\Users\runneradmin\Documents\test\Users.zip C:\ -Force
 msiexec -i C:\Users\runneradmin\Documents\Applications\openvpn1.msi /qn:
-C:\Users\runneradmin\Documents\Applications\droidcam.exe /S
+C:\Users\runneradmin\Documents\Applications\droidcam.exe
 explorer C:\Users\runneradmin\Documents\Applications\HamulSetup.exe
 explorer C:\Users\runneradmin\Documents\Applications\DiscordCanarySetup.exe -s
 C:\Users\runneradmin\Documents\Applications\vlc-3.0.16-win64.exe /S
 C:\Users\runneradmin\Documents\Applications\npp.8.1.2.Installer.x64.exe /S
+C:\Users\runneradmin\Documents\Scripts\wps.bat
 C:\Users\runneradmin\Documents\Applications\WPSOffice_11.2.0.10258.exe /S
 explorer C:\Users\runneradmin\Documents\Applications\womic_driver_setup.exe
 C:\Users\runneradmin\Documents\Applications\WOMicClientSetupV4.7.exe /S
