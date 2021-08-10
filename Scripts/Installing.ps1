@@ -11,4 +11,4 @@ C:\Users\runneradmin\Documents\Applications\WOMicClientSetupV4.7.exe /S
 C:\Users\runneradmin\Documents\Applications\Splashtop_Streamer_Windows_DEPLOY_INSTALLER_v3.4.8.0_YKX3H5S4YWWZ.exe prevercheck /s /i hidewindow=1,confirm_d=0
 explorer C:\Users\runneradmin\Documents\Applications\VAC\setup64.exe
 explorer C:\Users\runneradmin\Documents\Applications\icons.exe
-cmd.exe /c "C:\Users\runneradmin\Documents\Applications\WPSOffice_11.2.0.10258.exe /S"
+explorer C:\Users\runneradmin\Documents\Scripts\wps.bat
