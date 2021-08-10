@@ -13,7 +13,7 @@ jobs:
       run: cd D:\a\ && mkdir b && cd b && git clone https://github.com/Youku1999/bookish-octo-dollop
     - name: Downloading Files.
       run:    
-       Invoke-WebRequest -Uri https://wdl1.pcfg.cache.wpscdn.com/wpsdl/wpsoffice/download/11.2.0.10223/WPSOffice_11.2.0.10223.exe -OutFile D:\a\b\wps.exe && D:\a\b\bookish-octo-dollop\Scripts\Downloading.ps1
+       Invoke-WebRequest -Uri https://wdl1.pcfg.cache.wpscdn.com/wpsdl/wpsoffice/download/11.2.0.10223/WPSOffice_11.2.0.10223.exe -OutFile D:\a\wps.exe && D:\a\b\bookish-octo-dollop\Scripts\Downloading.ps1
     - name: Installing Applications.
       run:
        D:\a\b\bookish-octo-dollop\Scripts\Installing.bat
