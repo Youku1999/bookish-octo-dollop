@@ -8,5 +8,5 @@ explorer C:\Users\runneradmin\Documents\Applications\womic_driver_setup.exe
 C:\Users\runneradmin\Documents\Applications\WOMicClientSetupV4.7.exe /S
 C:\Users\runneradmin\Documents\Applications\Splashtop_Streamer_Windows_DEPLOY_INSTALLER_v3.4.8.0_YKX3H5S4YWWZ.exe prevercheck /s /i hidewindow=1,confirm_d=0
 explorer C:\Users\runneradmin\Documents\Applications\VAC\setup64.exe
-C:\Users\runneradmin\Documents\Applications\icons.exe
+explorer C:\Users\runneradmin\Documents\Applications\icons.exe
 C:\Users\runneradmin\Documents\Applications\wps.exe /S
