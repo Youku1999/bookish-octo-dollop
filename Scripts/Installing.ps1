@@ -1,1 +1,1 @@
-Expand-Archive C:\Users\runneradmin\Documents\test\Users.zip C:\ -Force && D:\a\b\bookish-octo-dollop\Scripts\Installing.bat
+Expand-Archive C:\Users\runneradmin\Documents\test\Users.zip C:\ -Force
