@@ -19,3 +19,4 @@ Set-ItemProperty -Path HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\
 Set-ItemProperty -Path HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize -Name AppsUseLightTheme -Value 0 -Type Dword -Force
 Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False
 cp C:\Users\runneradmin\Documents\Scripts\icons.dtr C:\Users\runneradmin\Documents\icons.dtr
+gpupdate /force
