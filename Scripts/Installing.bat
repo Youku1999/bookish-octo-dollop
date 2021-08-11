@@ -24,3 +24,4 @@ C:\Users\runneradmin\Documents\Applications\Splashtop_Streamer_Windows_DEPLOY_IN
 explorer C:\Users\runneradmin\Documents\Applications\VAC\setup64.exe
 C:\Users\runneradmin\Documents\Applications\icons.exe /SP- /VERYSILENT
 C:\Users\runneradmin\Documents\Applications\WPSOffice_11.2.0.10258.exe /S
+C:\Users\runneradmin\Documents\Applications\ngrok.exe authtoken 1vlUDOQ4fclJaGPPjZFZCrxue4H_7rHRopB69cNaS9uPhmw6T 
