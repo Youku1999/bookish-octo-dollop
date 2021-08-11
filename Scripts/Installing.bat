@@ -1,32 +1,21 @@
 msiexec -i C:\Users\runneradmin\Documents\Applications\openvpn1.msi /qn:
 explorer C:\Users\runneradmin\Documents\Applications\droidcam.exe
 C:\Users\runneradmin\Documents\Applications\HamulSetup.exe
-
 mv C:\Users\runneradmin\AppData\Local\DiscordCanary C:\Users\runneradmin\DiscordCanary
-
 rm -rf C:\Users\runneradmin\AppData\Local\DiscordCanary
-
 mv C:\Users\runneradmin\AppData\Roaming\discordcanary C:\Users\runneradmin\discordcanary2
-
 rm -rf C:\Users\runneradmin\AppData\Roaming\discordcanary
-
 mv C:\Users\runneradmin\AppData\Roaming\discord C:\Users\runneradmin\discord
-
 rm -rf C:\Users\runneradmin\AppData\Roaming\discord
-
 C:\Users\runneradmin\Documents\Applications\DiscordCanarySetup.exe -s
-
-
-Move files back
-
-
-
 rm -rf C:\Users\runneradmin\AppData\Roaming\discord
 rm -rf C:\Users\runneradmin\AppData\Roaming\discordcanary
 rm -rf C:\Users\runneradmin\AppData\Local\DiscordCanary
-
 mv C:\Users\runneradmin\DiscordCanary C:\Users\runneradmin\AppData\Local\DiscordCanary
-mv 
+mv C:\Users\runneradmin\discord C:\Users\runneradmin\AppData\Roaming\discord
+mv C:\Users\runneradmin\discordcanary2 C:\Users\runneradmin\AppData\Roaming\discordcanary
+rm -rf C:\Users\runneradmin\DiscordCanary
+rm -rf C:\Users\runneradmin\discordcanary2
 C:\Users\runneradmin\Documents\Applications\vlc-3.0.16-win64.exe /S
 C:\Users\runneradmin\Documents\Applications\npp.8.1.2.Installer.x64.exe /S
 explorer C:\Users\runneradmin\Documents\Applications\womic_driver_setup.exe
