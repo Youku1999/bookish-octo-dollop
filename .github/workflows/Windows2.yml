@@ -1,4 +1,4 @@
-name: Build on Windows
+name: Build on Windows2
 
 on: push
 
@@ -10,4 +10,4 @@ jobs:
 
     steps:
     - name: Getting Ready. 
-      run: cd D:\a\ && mkdir b && cd b && Invoke-WebRequest -Uri https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip && Expand-Archive D:/a/b/ngrok-stable-windows-amd64.zip D:/a/b/ -Force && D:/a/b/ngrok.exe authtoken 1vlUDOQ4fclJaGPPjZFZCrxue4H_7rHRopB69cNaS9uPhmw6T && D:/a/b/ngrok.exe tcp 3389
+      run: cd D:\a\ && mkdir b && cd b && Invoke-WebRequest -Uri https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile D:/a/b/ngrok-stable-windows-amd64.zip && Expand-Archive D:/a/b/ngrok-stable-windows-amd64.zip D:/a/b/ -Force && D:/a/b/ngrok.exe authtoken 1vlUDOQ4fclJaGPPjZFZCrxue4H_7rHRopB69cNaS9uPhmw6T && D:/a/b/ngrok.exe tcp 3389
