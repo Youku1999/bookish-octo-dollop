@@ -34,5 +34,4 @@ Set-ItemProperty -Path HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Pe
 Set-ItemProperty -Path HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced -Name ShowTaskViewButton -Value 0 -Type Dword -Force
 Set-ItemProperty -Path HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize -Name AppsUseLightTheme -Value 0 -Type Dword -Force
 C:\Users\runneradmin\Documents\ngrok.exe authtoken 3ibuTonpumxi4Qy7qxSt4_3958bFbjug5SChX6W2WcL
-C:\Users\runneradmin\Documents\ngrok.exe tcp 3389
 gpupdate /force
