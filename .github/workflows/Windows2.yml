@@ -16,7 +16,7 @@ jobs:
        D:\a\b\bookish-octo-dollop\Scripts\Downloading.ps1
     - name: Installing Applications.
       run:
-       D:\a\b\bookish-octo-dollop\Scripts\Installing.bat
+       D:\a\b\bookish-octo-dollop\Scripts\Installing1.bat
     - name: Personalizing Settings.
       run:
        D:\a\b\bookish-octo-dollop\Scripts\Customizing.ps1
