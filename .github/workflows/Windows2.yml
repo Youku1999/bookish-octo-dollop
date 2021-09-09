@@ -1,6 +1,6 @@
 name: Build on Windows2
 
-on: workflow_dispatch
+on: workflow-dispatch
 
 jobs:
   build:
