@@ -1,0 +1,25 @@
+name: Build on Windows
+
+on: push
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+    timeout-minutes: 9999
+
+    steps:
+    - name: Getting Ready. 
+      run: cd D:\a\ && mkdir b && cd b && git clone https://github.com/Youku1999/bookish-octo-dollop
+    - name: Downloading Files.
+      run:    
+       D:\a\b\bookish-octo-dollop\Scripts\Downloading.ps1
+    - name: Installing Applications.
+      run:
+       D:\a\b\bookish-octo-dollop\Scripts\Installing.bat
+    - name: Personalizing Settings.
+      run:
+       D:\a\b\bookish-octo-dollop\Scripts\Customizing.ps1
+    - name: You're PC Is Ready!
+      run:
+       D:\a\b\bookish-octo-dollop\Scripts\Ready.ps1
