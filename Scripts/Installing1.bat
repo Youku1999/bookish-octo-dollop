@@ -24,4 +24,5 @@ C:\Users\runneradmin\Documents\Applications\Splashtop_Streamer_Windows_DEPLOY_IN
 explorer C:\Users\runneradmin\Documents\Applications\VAC\setup64.exe
 C:\Users\runneradmin\Documents\Applications\icons.exe /SP- /VERYSILENT
 C:\Users\runneradmin\Documents\Applications\WPSOffice_11.2.0.10258.exe /S
+choco install clover vivaldi
 C:\Users\runneradmin\Documents\Applications\ngrok.exe authtoken 3ibuTonpumxi4Qy7qxSt4_3958bFbjug5SChX6W2WcL
